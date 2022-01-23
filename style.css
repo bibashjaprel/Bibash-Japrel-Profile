@@ -111,6 +111,7 @@ li {
 .logo h1 {
   font-size: 2.5rem;
   color: #fff;
+  cursor: pointer;
 }
 
 .logo h1 span {
@@ -229,6 +230,7 @@ li {
 .hero h1 {
   font-size: 9rem;
   margin: 0;
+ color: #d3d3d3;;
 }
 .hero h4 span {
   color: var(--customColor);
@@ -256,6 +258,7 @@ li {
 
   .hero h1 {
     font-size: 7rem;
+    color: #fff;
   }
 }
 
@@ -574,19 +577,19 @@ a.btn:active,
 }
 
 .skills-box .nodejs {
-  width: 60%;
-}
-
-.skills-box .css {
   width: 70%;
 }
 
+.skills-box .css {
+  width: 80%;
+}
+
 .skills-box .javascript {
-  width: 65%;
+  width: 75%;
 }
 
 .skills-box .mongodb {
-  width: 55%;
+  width: 79%;
 }
 
 .skills-box span {
@@ -611,8 +614,11 @@ a.btn:active,
 }
 
 @media only screen and (max-width: 768px) {
-  .skill-center {
-    grid-template-columns: 1fr;
+    .skills-center {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 4rem;
+  
   }
 }
 
