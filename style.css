@@ -587,6 +587,9 @@ a.btn:active,
 .skills-box .javascript {
   width: 75%;
 }
+.skills-box .react {
+  width: 90%;
+}
 
 .skills-box .mongodb {
   width: 79%;
