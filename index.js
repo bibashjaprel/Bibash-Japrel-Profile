@@ -33,30 +33,6 @@ navClose.addEventListener("click", () => {
   }
 });
 
-// Colors
-
-const widget = document.querySelector(".widget");
-const control = document.querySelector(".control");
-
-widget.addEventListener("click", () => {
-  control.classList.toggle("open");
-});
-
-const colors = [...document.querySelectorAll(".colors span")];
-document.querySelector(":root").style.setProperty("--customColor", "#0044ff");
-
-colors.forEach((color) => {
-  color.addEventListener("click", () => {
-    const currentColor = color.dataset.id;
-    document
-      .querySelector(":root")
-      .style.setProperty("--customColor", currentColor);
-  });
-});
-
-window.addEventListener("scroll", () => {
-  control.classList.remove("open");
-});
 
 // Glidejs
 
@@ -89,12 +65,12 @@ new TypeIt("#type1", {
   loop: true,
   waitUntilVisible: true,
 })
-  .type("Designer", { delay: 400 })
-  .pause(500)
-  .delete(9)
   .type("Developer", { delay: 400 })
   .pause(500)
   .delete(9)
+  .type("Computer Engineer", { delay: 400 })
+  .pause(400)
+  .delete(18)
   .go();
 
 new TypeIt("#type2", {
@@ -102,12 +78,12 @@ new TypeIt("#type2", {
   loop: true,
   waitUntilVisible: true,
 })
-  .type("Designer", { delay: 400 })
-  .pause(500)
-  .delete(9)
   .type("Developer", { delay: 400 })
   .pause(500)
   .delete(9)
+  .type("Computer Engineer", { delay: 400 })
+  .pause(500)
+  .delete(18)
   .go();
 
 gsap.from(".logo", { opacity: 0, duration: 1, delay: 0.5, y: -10 });
