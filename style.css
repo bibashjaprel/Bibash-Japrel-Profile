@@ -619,6 +619,10 @@ a.btn:active,
   font: bold;
   font-size: 2rem;
 }
+.skills-right p{
+  line-height: 2;
+  margin-bottom: 2rem;
+}
 
 .skills-right .btn{
   display: inline-block;
@@ -630,12 +634,9 @@ a.btn:active,
   border: 2px solid var(--customColor);
   box-shadow: 0 10px 10px rgba(0, 0, 0, .1);
   transition: all 300ms ease-in-out;
-  margin-top: 10px;
 }
 
-.right p {
-  margin-bottom: 2rem;
-}
+
 
 @media only screen and (max-width: 768px) {
     .skills-center {
