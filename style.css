@@ -33,6 +33,17 @@ body {
   z-index: 1;
 }
 
+/* Hide scrollbar for desktop */
+body {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+}
+
+/* Hide scrollbar for Webkit browsers */
+::-webkit-scrollbar {
+  display: none;
+}
+
 h1,
 h2,
 h3,
