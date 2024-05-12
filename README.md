@@ -22,7 +22,7 @@ This portfolio website showcases my skills, experience, and projects. Here's a b
 - AOS (Animate On Scroll) library for scroll animations
 - TypeIt library for typewriter effect
 - Glidejs for the team carousel
-- GSAP for animation (if applicable)
+- GSAP for animation
 
 ## How to Use
 
